@@ -1,5 +1,5 @@
 # *Markdown*
-Este repositorio esta dedicado a la escritura de Mardown's, ideas, mensajes alerta y tipología en general.
+Este repositorio esta dedicado a la escritura de Mardown's, ideas en la organización de proyectos, mensajes alerta y tipología en general.
 
 ## *Estructuras de proyectos *
 Estructura por tipos:
