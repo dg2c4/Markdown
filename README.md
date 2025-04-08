@@ -67,16 +67,41 @@ Indicar en la carpeta que es lo que hacemos, dividir las responsabilidades Actor
     ├───modules/
     |   ├───core/
     |   |   ├───components/
-
-    ├───hooks/
-    |   ├───usePayment.tsx
-    |   ├───useUpdateEmployees.tsx
-    |   ├───useEmployees.tsx
-    |   └──useAuth.tsx
-    ├───lib/
-    ├───services/
-    ├───states/
-    └───utils/
+    |   |   ├───desing-system/
+    |   |   |   └──Button.tsx
+    |   |   ├───hooks/
+    |   |   ├───lib/
+    |   |   └───utils/
+    |   ├───payment/
+    |   |   ├───components/
+    |   |   |   └──PaymentForm.tsx
+    |   |   ├───hooks/
+    |   |   |   └──usePayment.ts
+    |   |   ├───lib/
+    |   |   ├───services/
+    |   |   ├───states/
+    |   |   └───utils/
+    |   ├───auth/
+    |   |   ├───components/
+    |   |   |   └──SignUpForm.tsx
+    |   |   ├───hooks/
+    |   |   |   └──useAuth.ts
+    |   |   ├───lib/
+    |   |   ├───services/
+    |   |   ├───states/
+    |   |   └───utils/
+    |   ├───employees/
+    |   |   ├───components/
+    |   |   |   ├──EmployeeSummary.tsx
+    |   |   |   └──EmployeeSummary.tsx
+    |   |   ├───hooks/
+    |   |   |   ├──UseEmployee.ts
+    |   |   |   └──useUpdateEmployees.ts
+    |   |   ├───lib/
+    |   |   ├───services/
+    |   |   ├───states/
+    |   |   └───utils/
+    └───index.html/
 ```
 
 
@@ -154,16 +179,12 @@ Para crear una tabla con markdown es necesario utilizar la barra vertical "|" pa
         
     | User: | dg2c4 |
 
-Para marcar la división del encabezado de las columnas y centrar el texto, se utiliza la barra vertical y guiones "-":
-
-    |------|--------|
-
 Para continuar solo utilizar la barra verticar "|" y el texto dentro de cada una, teniendo en cuenta que el numero de barras divide la cantidad de columnas:
 
     # Tabla 2x2
     | User: | dg2c4 |
     |-------|-------|
-    | User: | dg2c4 |
+    | software | dg2c4 |
 
     # Tabla 4x4
     | User: | dg2c4 | Security | Alpha |
@@ -172,7 +193,7 @@ Para continuar solo utilizar la barra verticar "|" y el texto dentro de cada una
     | User: | dg2c4 | Security | Alpha |
 
 > [!NOTE]
-> Esto es un ejemplo de la división entre columnas haciendo uso de los elementos anteriormente mencionados.
+> Esto es un ejemplo de la división entre columnas, los guiones representan los espacios que tendran los caracteres con los elementos anteriormente mencionados.
 
 ## *Tablas en Mardown: Visualización*
 
