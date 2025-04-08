@@ -10,11 +10,11 @@ Screaming arquitecture:
 
 
 ## *Nota Inicial en Markdown: Código Fuente*
-    > **Note**
+    > **Note:**
     > Esto es una nota
 
 ## *Nota Inicial en Markdown: Visualización*
-> **Note**
+> **Note:**
 > This is a note
 
 ## *Alertas en Markdown: Código fuente*
