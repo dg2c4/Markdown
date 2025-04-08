@@ -154,7 +154,7 @@ Para crear una tabla con markdown es necesario utilizar la barra vertical "|" pa
         
     | User: | dg2c4 |
 
-Para marcar la división del encabezado de las columnas y centrar el texto, se utiliza la barra vertical "|" y los guiones "-":
+Para marcar la división del encabezado de las columnas y centrar el texto, se utiliza la barra vertical y guiones "-":
 
     |------|--------|
 
