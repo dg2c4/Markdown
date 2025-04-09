@@ -6,102 +6,102 @@ Este repositorio esta dedicado a la escritura de Mardown's, ideas en la organiza
 ### *Estructura Por Tipos:*
 Organización en proyectos pequeños, la escabilidad del proyecto es reducida a cierto punto.
 ```Estructura Por Tipos
-└──src/
-    ├───assets/
-    ├───api/
-    ├───configs/
-    ├───components/
-    |   ├───SingUpForm.tsx
-    |   ├───Employees.tsx
-    |   ├───PaymentForm.tsx
-    |   └──Button.tsx
-    ├───hooks/
-    |   ├───usePayment.tsx
-    |   ├───useUpdateEmployees.tsx
-    |   ├───useEmployees.tsx
-    |   └──useAuth.tsx
-    ├───lib/
-    ├───services/
-    ├───states/
-    └───utils/
+└── src/
+    ├─── assets/
+    ├─── api/
+    ├─── configs/
+    ├─── components/
+    |   ├─── SingUpForm.tsx
+    |   ├─── Employees.tsx
+    |   ├─── PaymentForm.tsx
+    |   └── Button.tsx
+    ├─── hooks/
+    |   ├─── usePayment.tsx
+    |   ├─── useUpdateEmployees.tsx
+    |   ├─── useEmployees.tsx
+    |   └── useAuth.tsx
+    ├─── lib/
+    ├─── services/
+    ├─── states/
+    └─── utils/
 ```
 
 ### *Estructura Por Features:* 
 Organización por tipo y por feature, refleja el producto dentro de la carpeta de cada tipo, Carpeta-->Componentes.
 ```Estructura Por Features
-└──src/
-    ├───assets/
-    ├───api/
-    ├───configs/
-    ├───components/
-    |   ├───auth/
-    |   |   └──SingUpForm.tsx
-    |   ├───payment/
-    |   |   └──Payment.tsx
-    |   |   └──SingUpForm.tsx
-    |   ├───common/
-    |   |   └──Button.tsx
-    |   |   └──SingUpForm.tsx
-    |   ├───employees/
-    |   |   ├──EmployeeSummary.tsx
-    |   |   └──EmployeeSummary.tsx
-    ├───hooks/
-    |   ├───auth/
-    |   |   └──useAuth.ts
-    |   ├───payment/
-    |   |   └──Payment.ts
-    |   └──employees/
-    |      ├──useEmployees.ts
-    |      └──useUpdateEmployees.ts
-    ├───lib/
-    ├───services/
-    ├───states/
-    └───utils/
+└── src/
+    ├─── assets/
+    ├─── api/
+    ├─── configs/
+    ├─── components/
+    |   ├─── auth/
+    |   |   └── SingUpForm.tsx
+    |   ├─── payment/
+    |   |   └── Payment.tsx
+    |   |   └── SingUpForm.tsx
+    |   ├─── common/
+    |   |   └── Button.tsx
+    |   |   └── SingUpForm.tsx
+    |   ├─── employees/
+    |   |   ├── EmployeeSummary.tsx
+    |   |   └── EmployeeSummary.tsx
+    ├─── hooks/
+    |   ├─── auth/
+    |   |   └── useAuth.ts
+    |   ├─── payment/
+    |   |   └── Payment.ts
+    |   └── employees/
+    |      ├── useEmployees.ts
+    |      └── useUpdateEmployees.ts
+    ├─── lib/
+    ├─── services/
+    ├─── states/
+    └─── utils/
 ```
 
 ## *Screaming Arquitecture:*
 Indicar en la carpeta que es lo que hacemos, dividir las responsabilidades Actor-->Carpeta-->Componentes.
 ```Screaming Arquitecture
-└──src/
-    ├───assets/
-    ├───modules/
-    |   ├───core/
-    |   |   ├───components/
-    |   |   ├───desing-system/
-    |   |   |   └──Button.tsx
-    |   |   ├───hooks/
-    |   |   ├───lib/
-    |   |   └───utils/
-    |   ├───payment/
-    |   |   ├───components/
-    |   |   |   └──PaymentForm.tsx
-    |   |   ├───hooks/
-    |   |   |   └──usePayment.ts
-    |   |   ├───lib/
-    |   |   ├───services/
-    |   |   ├───states/
-    |   |   └───utils/
-    |   ├───auth/
-    |   |   ├───components/
-    |   |   |   └──SignUpForm.tsx
-    |   |   ├───hooks/
-    |   |   |   └──useAuth.ts
-    |   |   ├───lib/
-    |   |   ├───services/
-    |   |   ├───states/
-    |   |   └───utils/
-    |   ├───employees/
-    |   |   ├───components/
-    |   |   |   ├──EmployeeSummary.tsx
-    |   |   |   └──EmployeeSummary.tsx
-    |   |   ├───hooks/
-    |   |   |   ├──UseEmployee.ts
-    |   |   |   └──useUpdateEmployees.ts
-    |   |   ├───lib/
-    |   |   ├───services/
-    |   |   ├───states/
-    |   |   └───utils/
-    └───index.html/
+└── src/
+    ├─── assets/
+    ├─── modules/
+    |   ├─── core/
+    |   |   ├─── components/
+    |   |   ├─── desing-system/
+    |   |   |   └── Button.tsx
+    |   |   ├─── hooks/
+    |   |   ├─── lib/
+    |   |   └─── utils/
+    |   ├─── payment/
+    |   |   ├─── components/
+    |   |   |   └── PaymentForm.tsx
+    |   |   ├─── hooks/
+    |   |   |   └── usePayment.ts
+    |   |   ├─── lib/
+    |   |   ├─── services/
+    |   |   ├─── states/
+    |   |   └─── utils/
+    |   ├─── auth/
+    |   |   ├─── components/
+    |   |   |   └── SignUpForm.tsx
+    |   |   ├─── hooks/
+    |   |   |   └── useAuth.ts
+    |   |   ├─── lib/
+    |   |   ├─── services/
+    |   |   ├─── states/
+    |   |   └─── utils/
+    |   ├─── employees/
+    |   |   ├─── components/
+    |   |   |   ├── EmployeeSummary.tsx
+    |   |   |   └── EmployeeSummary.tsx
+    |   |   ├─── hooks/
+    |   |   |   ├── UseEmployee.ts
+    |   |   |   └── useUpdateEmployees.ts
+    |   |   ├─── lib/
+    |   |   ├─── services/
+    |   |   ├─── states/
+    |   |   └─── utils/
+    └─── index.html/
 ```
 
 
