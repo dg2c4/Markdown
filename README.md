@@ -181,11 +181,6 @@ Para crear una tabla con markdown es necesario utilizar la barra vertical "|" pa
 
 Para continuar solo utilizar la barra verticar "|" y el texto dentro de cada una, teniendo en cuenta que el numero de barras divide la cantidad de columnas:
 
-    # Tabla 2x2
-    | User: | dg2c4 |
-    |-------|-------|
-    | software | dg2c4 |
-
     # Tabla 4x4
     | User: | dg2c4 | Security | Alpha |
     |-------|-------|----------|-------|
@@ -205,6 +200,13 @@ Para continuar solo utilizar la barra verticar "|" y el texto dentro de cada una
 > [!NOTE]
 > Esto es un ejemplo de la la visualización de tablas haciendo uso de los elementos anteriormente mencionados.
 
+
+Creación listados
+* [➤ Components](#https://github.com/dg2c4/Markdown/)
+	* [Component1](#https://github.com/dg2c4/Markdown/)
+		* [Component2](#https://github.com/dg2c4/Markdown/)
+		* [Component3](#https://github.com/dg2c4/Markdown/)
+	* [Component4](#https://github.com/dg2c4/Markdown/)
 
 ## Created By:
     https://github.com/dg2c4
